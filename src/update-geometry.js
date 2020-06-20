@@ -5,6 +5,12 @@ import { toInt } from './lib/util';
 
 export default function(i) {
   const element = i.element;
+
+  // some buggy case when it is called for non existing anymore element
+  if (!i.element) {
+    return;
+  }
+
   const roundedScrollTop = Math.floor(element.scrollTop);
   const rect = element.getBoundingClientRect();
 
