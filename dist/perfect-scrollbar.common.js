@@ -322,6 +322,12 @@ var env = {
 
 function updateGeometry(i) {
   var element = i.element;
+
+  // some buggy case when it is called for non existing anymore element
+  if (!i.element) {
+    return;
+  }
+
   var roundedScrollTop = Math.floor(element.scrollTop);
   var rect = element.getBoundingClientRect();
 
