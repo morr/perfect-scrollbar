@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.5.3] - 2020-08-26
+- Updates from mdbootstrap/perfect-scrollbar#master
+- fix the error about the touchmove (#908)
+
 ## [1.5.0] - 2020-01-16
 
 ### Notable changes:
