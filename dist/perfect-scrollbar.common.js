@@ -1,6 +1,6 @@
 /*!
  * perfect-scrollbar v1.5.3
- * Copyright 2020 Hyunje Jun, MDBootstrap and Contributors
+ * Copyright 2021 Hyunje Jun, MDBootstrap and Contributors
  * Licensed under MIT
  */
 
